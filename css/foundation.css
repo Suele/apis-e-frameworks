@@ -2199,6 +2199,10 @@ td {
   margin: 0;
   padding: 0; }
 
+  h1,h2 {
+    padding: 1rem;
+  }  
+
 p {
   margin-bottom: 1rem;
   font-size: inherit;
@@ -2277,9 +2281,9 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3rem; }
+    font-size: 2rem; }
   h2, .h2 {
-    font-size: 2.5rem; }
+    font-size: 1.5rem; }
   h3, .h3 {
     font-size: 1.9375rem; }
   h4, .h4 {
@@ -4847,13 +4851,17 @@ html.is-reveal-open body {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 1rem;
-  border-radius: 0; }
+  margin-bottom: 2rem;
+  border-radius: 4rem;  
+}
   table thead,
   table tbody,
   table tfoot {
-    border: 1px solid #f1f1f1;
-    background-color: #fefefe; }
+    border: 1px solid #ddd7d7b3;
+    background-color: rgba(184, 203, 161, 0); 
+    padding: 1rem;
+    margin: 2.5rem;
+  }
   table caption {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold; }
